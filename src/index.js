@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 function Gif({ id }) {
   const src = `https://media.giphy.com/media/${id}/giphy.gif`;
@@ -8,4 +9,5 @@ function Gif({ id }) {
 const app = <Gif id="33OrjzUFwkwEg" />;
 
 const root = document.getElementById('root');
-ReactDOM.render(app, root);
+ReactDOM.render(app,root);
+
