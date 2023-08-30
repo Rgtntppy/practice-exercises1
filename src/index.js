@@ -10,4 +10,3 @@ const app = <Gif id="33OrjzUFwkwEg" />;
 
 const root = document.getElementById('root');
 ReactDOM.render(app,root);
-
